@@ -1,6 +1,6 @@
 import React from "react";
 
-const TextEllipse = ({ username, maxLength = 8 }) => {
+const TextEllipse = ({ username, maxLength = 8 }: any) => {
   const usernameEllipseStory =
     username.length > maxLength
       ? `${username.slice(0, maxLength)}...`

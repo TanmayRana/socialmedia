@@ -1,8 +1,7 @@
-import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import React from "react";
 
-const Tab = ({ label, icon, isActive, onclick }) => {
+const Tab = ({ label, icon, isActive, onclick }: any) => {
   return (
     <>
       <button

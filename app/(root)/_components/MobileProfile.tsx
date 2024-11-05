@@ -2,7 +2,7 @@
 
 import { Button } from "@/components/ui/button";
 import LinkIcon from "@/Icons/LinkIcon/LinkIcon";
-import Settings from "@/Icons/Settings/Settings";
+// import Settings from "@/Icons/Settings/Settings";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
@@ -13,13 +13,13 @@ import Tab from "./Tab";
 import PostIcon from "@/Icons/Post/post.png";
 import ReelIcon from "@/Icons/Reel/reel.png";
 import TagIcon from "@/Icons/Tag/tag.png";
-import Posts from "./Posts";
-import Reels from "./Reels";
-import Tags from "./Tags";
+// import Posts from "./Posts";
+// import Reels from "./Reels";
+// import Tags from "./Tags";
 
 const MobileProfile = () => {
   const [activeTab, setActiveTab] = useState("posts");
-  const [isContentVisible, setisContentVisible] = useState(true);
+  // const [isContentVisible, setisContentVisible] = useState(true);
   return (
     <>
       <div className="w-full h-auto lg:hidden md:hidden sm:block block text-white">
